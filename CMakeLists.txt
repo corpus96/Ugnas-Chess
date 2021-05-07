@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.19)
+project(Ugnas_Chess C)
+
+set(CMAKE_C_STANDARD 99)
+
+add_executable(Ugnas_Chess main.c defs.h)

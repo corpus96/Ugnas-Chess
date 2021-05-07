@@ -1,0 +1,3 @@
+C:/Users/corpu/Documents/Ugnas Chess/cmake-build-debug/CMakeFiles/Ugnas_Chess.dir
+C:/Users/corpu/Documents/Ugnas Chess/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/corpu/Documents/Ugnas Chess/cmake-build-debug/CMakeFiles/rebuild_cache.dir
