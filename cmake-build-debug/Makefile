@@ -141,6 +141,33 @@ Ugnas_Chess/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ugnas_Chess.dir\build.make CMakeFiles/Ugnas_Chess.dir/build
 .PHONY : Ugnas_Chess/fast
 
+init.obj: init.c.obj
+
+.PHONY : init.obj
+
+# target to build an object file
+init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ugnas_Chess.dir\build.make CMakeFiles/Ugnas_Chess.dir/init.c.obj
+.PHONY : init.c.obj
+
+init.i: init.c.i
+
+.PHONY : init.i
+
+# target to preprocess a source file
+init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ugnas_Chess.dir\build.make CMakeFiles/Ugnas_Chess.dir/init.c.i
+.PHONY : init.c.i
+
+init.s: init.c.s
+
+.PHONY : init.s
+
+# target to generate assembly for a file
+init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ugnas_Chess.dir\build.make CMakeFiles/Ugnas_Chess.dir/init.c.s
+.PHONY : init.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -177,6 +204,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Ugnas_Chess
+	@echo ... init.obj
+	@echo ... init.i
+	@echo ... init.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
