@@ -74,6 +74,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/corpu/Documents/Ugnas Chess/bitboard.c">
+			<Option target="Ugnas_Chess"/>
+		</Unit>
 		<Unit filename="C:/Users/corpu/Documents/Ugnas Chess/defs.h">
 			<Option target="Ugnas_Chess"/>
 		</Unit>

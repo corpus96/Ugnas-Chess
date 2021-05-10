@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Ugnas_Chess.dir/bitboard.c.obj"
   "CMakeFiles/Ugnas_Chess.dir/init.c.obj"
   "CMakeFiles/Ugnas_Chess.dir/main.c.obj"
   "Ugnas_Chess.exe"

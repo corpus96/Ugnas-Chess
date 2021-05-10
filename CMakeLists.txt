@@ -3,4 +3,4 @@ project(Ugnas_Chess C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Ugnas_Chess main.c init.c defs.h init.c)
+add_executable(Ugnas_Chess main.c init.c defs.h init.c bitboard.c)
