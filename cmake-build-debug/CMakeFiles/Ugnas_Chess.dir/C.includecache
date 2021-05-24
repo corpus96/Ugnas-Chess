@@ -6,13 +6,45 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/corpu/Documents/Ugnas Chess/bitboard.c
+stdio.h
+C:/Users/corpu/Documents/Ugnas Chess/stdio.h
+defs.h
+C:/Users/corpu/Documents/Ugnas Chess/defs.h
+
+C:/Users/corpu/Documents/Ugnas Chess/board.c
+stdio.h
+C:/Users/corpu/Documents/Ugnas Chess/stdio.h
+defs.h
+C:/Users/corpu/Documents/Ugnas Chess/defs.h
+
+C:/Users/corpu/Documents/Ugnas Chess/data.c
+defs.h
+C:/Users/corpu/Documents/Ugnas Chess/defs.h
+
 C:/Users/corpu/Documents/Ugnas Chess/defs.h
 stdlib.h
--
+C:/Users/corpu/Documents/Ugnas Chess/stdlib.h
 
-C:/Users/corpu/Documents/Ugnas Chess/main.c
+C:/Users/corpu/Documents/Ugnas Chess/hashkeys.c
 stdio.h
 -
 defs.h
 C:/Users/corpu/Documents/Ugnas Chess/defs.h
+
+C:/Users/corpu/Documents/Ugnas Chess/init.c
+defs.h
+C:/Users/corpu/Documents/Ugnas Chess/defs.h
+stdio.h
+C:/Users/corpu/Documents/Ugnas Chess/stdio.h
+stdlib.h
+C:/Users/corpu/Documents/Ugnas Chess/stdlib.h
+
+C:/Users/corpu/Documents/Ugnas Chess/main.c
+stdio.h
+C:/Users/corpu/Documents/Ugnas Chess/stdio.h
+defs.h
+C:/Users/corpu/Documents/Ugnas Chess/defs.h
+stdlib.h
+C:/Users/corpu/Documents/Ugnas Chess/stdlib.h
 

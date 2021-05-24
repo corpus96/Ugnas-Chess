@@ -114,11 +114,53 @@ CMakeFiles/Ugnas_Chess.dir/bitboard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ugnas_Chess.dir/bitboard.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\corpu\Documents\Ugnas Chess\bitboard.c" -o CMakeFiles\Ugnas_Chess.dir\bitboard.c.s
 
+CMakeFiles/Ugnas_Chess.dir/hashkeys.c.obj: CMakeFiles/Ugnas_Chess.dir/flags.make
+CMakeFiles/Ugnas_Chess.dir/hashkeys.c.obj: ../hashkeys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\corpu\Documents\Ugnas Chess\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Ugnas_Chess.dir/hashkeys.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Ugnas_Chess.dir\hashkeys.c.obj -c "C:\Users\corpu\Documents\Ugnas Chess\hashkeys.c"
+
+CMakeFiles/Ugnas_Chess.dir/hashkeys.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ugnas_Chess.dir/hashkeys.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\corpu\Documents\Ugnas Chess\hashkeys.c" > CMakeFiles\Ugnas_Chess.dir\hashkeys.c.i
+
+CMakeFiles/Ugnas_Chess.dir/hashkeys.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ugnas_Chess.dir/hashkeys.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\corpu\Documents\Ugnas Chess\hashkeys.c" -o CMakeFiles\Ugnas_Chess.dir\hashkeys.c.s
+
+CMakeFiles/Ugnas_Chess.dir/board.c.obj: CMakeFiles/Ugnas_Chess.dir/flags.make
+CMakeFiles/Ugnas_Chess.dir/board.c.obj: ../board.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\corpu\Documents\Ugnas Chess\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Ugnas_Chess.dir/board.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Ugnas_Chess.dir\board.c.obj -c "C:\Users\corpu\Documents\Ugnas Chess\board.c"
+
+CMakeFiles/Ugnas_Chess.dir/board.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ugnas_Chess.dir/board.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\corpu\Documents\Ugnas Chess\board.c" > CMakeFiles\Ugnas_Chess.dir\board.c.i
+
+CMakeFiles/Ugnas_Chess.dir/board.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ugnas_Chess.dir/board.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\corpu\Documents\Ugnas Chess\board.c" -o CMakeFiles\Ugnas_Chess.dir\board.c.s
+
+CMakeFiles/Ugnas_Chess.dir/data.c.obj: CMakeFiles/Ugnas_Chess.dir/flags.make
+CMakeFiles/Ugnas_Chess.dir/data.c.obj: ../data.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\corpu\Documents\Ugnas Chess\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Ugnas_Chess.dir/data.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Ugnas_Chess.dir\data.c.obj -c "C:\Users\corpu\Documents\Ugnas Chess\data.c"
+
+CMakeFiles/Ugnas_Chess.dir/data.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ugnas_Chess.dir/data.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\corpu\Documents\Ugnas Chess\data.c" > CMakeFiles\Ugnas_Chess.dir\data.c.i
+
+CMakeFiles/Ugnas_Chess.dir/data.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ugnas_Chess.dir/data.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\corpu\Documents\Ugnas Chess\data.c" -o CMakeFiles\Ugnas_Chess.dir\data.c.s
+
 # Object files for target Ugnas_Chess
 Ugnas_Chess_OBJECTS = \
 "CMakeFiles/Ugnas_Chess.dir/main.c.obj" \
 "CMakeFiles/Ugnas_Chess.dir/init.c.obj" \
-"CMakeFiles/Ugnas_Chess.dir/bitboard.c.obj"
+"CMakeFiles/Ugnas_Chess.dir/bitboard.c.obj" \
+"CMakeFiles/Ugnas_Chess.dir/hashkeys.c.obj" \
+"CMakeFiles/Ugnas_Chess.dir/board.c.obj" \
+"CMakeFiles/Ugnas_Chess.dir/data.c.obj"
 
 # External object files for target Ugnas_Chess
 Ugnas_Chess_EXTERNAL_OBJECTS =
@@ -126,11 +168,14 @@ Ugnas_Chess_EXTERNAL_OBJECTS =
 Ugnas_Chess.exe: CMakeFiles/Ugnas_Chess.dir/main.c.obj
 Ugnas_Chess.exe: CMakeFiles/Ugnas_Chess.dir/init.c.obj
 Ugnas_Chess.exe: CMakeFiles/Ugnas_Chess.dir/bitboard.c.obj
+Ugnas_Chess.exe: CMakeFiles/Ugnas_Chess.dir/hashkeys.c.obj
+Ugnas_Chess.exe: CMakeFiles/Ugnas_Chess.dir/board.c.obj
+Ugnas_Chess.exe: CMakeFiles/Ugnas_Chess.dir/data.c.obj
 Ugnas_Chess.exe: CMakeFiles/Ugnas_Chess.dir/build.make
 Ugnas_Chess.exe: CMakeFiles/Ugnas_Chess.dir/linklibs.rsp
 Ugnas_Chess.exe: CMakeFiles/Ugnas_Chess.dir/objects1.rsp
 Ugnas_Chess.exe: CMakeFiles/Ugnas_Chess.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\corpu\Documents\Ugnas Chess\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Ugnas_Chess.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\corpu\Documents\Ugnas Chess\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Ugnas_Chess.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Ugnas_Chess.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

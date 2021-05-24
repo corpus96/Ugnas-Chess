@@ -4,6 +4,15 @@
 CMakeFiles/Ugnas_Chess.dir/bitboard.c.obj
  C:/Users/corpu/Documents/Ugnas Chess/bitboard.c
  C:/Users/corpu/Documents/Ugnas Chess/defs.h
+CMakeFiles/Ugnas_Chess.dir/board.c.obj
+ C:/Users/corpu/Documents/Ugnas Chess/board.c
+ C:/Users/corpu/Documents/Ugnas Chess/defs.h
+CMakeFiles/Ugnas_Chess.dir/data.c.obj
+ C:/Users/corpu/Documents/Ugnas Chess/data.c
+ C:/Users/corpu/Documents/Ugnas Chess/defs.h
+CMakeFiles/Ugnas_Chess.dir/hashkeys.c.obj
+ C:/Users/corpu/Documents/Ugnas Chess/defs.h
+ C:/Users/corpu/Documents/Ugnas Chess/hashkeys.c
 CMakeFiles/Ugnas_Chess.dir/init.c.obj
  C:/Users/corpu/Documents/Ugnas Chess/defs.h
  C:/Users/corpu/Documents/Ugnas Chess/init.c

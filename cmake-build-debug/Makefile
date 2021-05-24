@@ -168,6 +168,87 @@ bitboard.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ugnas_Chess.dir\build.make CMakeFiles/Ugnas_Chess.dir/bitboard.c.s
 .PHONY : bitboard.c.s
 
+board.obj: board.c.obj
+
+.PHONY : board.obj
+
+# target to build an object file
+board.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ugnas_Chess.dir\build.make CMakeFiles/Ugnas_Chess.dir/board.c.obj
+.PHONY : board.c.obj
+
+board.i: board.c.i
+
+.PHONY : board.i
+
+# target to preprocess a source file
+board.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ugnas_Chess.dir\build.make CMakeFiles/Ugnas_Chess.dir/board.c.i
+.PHONY : board.c.i
+
+board.s: board.c.s
+
+.PHONY : board.s
+
+# target to generate assembly for a file
+board.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ugnas_Chess.dir\build.make CMakeFiles/Ugnas_Chess.dir/board.c.s
+.PHONY : board.c.s
+
+data.obj: data.c.obj
+
+.PHONY : data.obj
+
+# target to build an object file
+data.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ugnas_Chess.dir\build.make CMakeFiles/Ugnas_Chess.dir/data.c.obj
+.PHONY : data.c.obj
+
+data.i: data.c.i
+
+.PHONY : data.i
+
+# target to preprocess a source file
+data.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ugnas_Chess.dir\build.make CMakeFiles/Ugnas_Chess.dir/data.c.i
+.PHONY : data.c.i
+
+data.s: data.c.s
+
+.PHONY : data.s
+
+# target to generate assembly for a file
+data.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ugnas_Chess.dir\build.make CMakeFiles/Ugnas_Chess.dir/data.c.s
+.PHONY : data.c.s
+
+hashkeys.obj: hashkeys.c.obj
+
+.PHONY : hashkeys.obj
+
+# target to build an object file
+hashkeys.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ugnas_Chess.dir\build.make CMakeFiles/Ugnas_Chess.dir/hashkeys.c.obj
+.PHONY : hashkeys.c.obj
+
+hashkeys.i: hashkeys.c.i
+
+.PHONY : hashkeys.i
+
+# target to preprocess a source file
+hashkeys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ugnas_Chess.dir\build.make CMakeFiles/Ugnas_Chess.dir/hashkeys.c.i
+.PHONY : hashkeys.c.i
+
+hashkeys.s: hashkeys.c.s
+
+.PHONY : hashkeys.s
+
+# target to generate assembly for a file
+hashkeys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ugnas_Chess.dir\build.make CMakeFiles/Ugnas_Chess.dir/hashkeys.c.s
+.PHONY : hashkeys.c.s
+
 init.obj: init.c.obj
 
 .PHONY : init.obj
@@ -234,6 +315,15 @@ help:
 	@echo ... bitboard.obj
 	@echo ... bitboard.i
 	@echo ... bitboard.s
+	@echo ... board.obj
+	@echo ... board.i
+	@echo ... board.s
+	@echo ... data.obj
+	@echo ... data.i
+	@echo ... data.s
+	@echo ... hashkeys.obj
+	@echo ... hashkeys.i
+	@echo ... hashkeys.s
 	@echo ... init.obj
 	@echo ... init.i
 	@echo ... init.s
