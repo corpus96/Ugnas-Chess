@@ -1,0 +1,3 @@
+/home/emmanuelcorpus/Documentos/Ugnas-Chess/build/CMakeFiles/rebuild_cache.dir
+/home/emmanuelcorpus/Documentos/Ugnas-Chess/build/CMakeFiles/edit_cache.dir
+/home/emmanuelcorpus/Documentos/Ugnas-Chess/build/CMakeFiles/Ugnas_Chess.dir

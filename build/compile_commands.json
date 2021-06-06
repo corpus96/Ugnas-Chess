@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/emmanuelcorpus/Documentos/Ugnas-Chess/build",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-11   -g -std=gnu99 -o CMakeFiles/Ugnas_Chess.dir/main.c.o -c /home/emmanuelcorpus/Documentos/Ugnas-Chess/main.c",
+  "file": "/home/emmanuelcorpus/Documentos/Ugnas-Chess/main.c"
+},
+{
+  "directory": "/home/emmanuelcorpus/Documentos/Ugnas-Chess/build",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-11   -g -std=gnu99 -o CMakeFiles/Ugnas_Chess.dir/init.c.o -c /home/emmanuelcorpus/Documentos/Ugnas-Chess/init.c",
+  "file": "/home/emmanuelcorpus/Documentos/Ugnas-Chess/init.c"
+},
+{
+  "directory": "/home/emmanuelcorpus/Documentos/Ugnas-Chess/build",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-11   -g -std=gnu99 -o CMakeFiles/Ugnas_Chess.dir/bitboard.c.o -c /home/emmanuelcorpus/Documentos/Ugnas-Chess/bitboard.c",
+  "file": "/home/emmanuelcorpus/Documentos/Ugnas-Chess/bitboard.c"
+},
+{
+  "directory": "/home/emmanuelcorpus/Documentos/Ugnas-Chess/build",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-11   -g -std=gnu99 -o CMakeFiles/Ugnas_Chess.dir/hashkeys.c.o -c /home/emmanuelcorpus/Documentos/Ugnas-Chess/hashkeys.c",
+  "file": "/home/emmanuelcorpus/Documentos/Ugnas-Chess/hashkeys.c"
+},
+{
+  "directory": "/home/emmanuelcorpus/Documentos/Ugnas-Chess/build",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-11   -g -std=gnu99 -o CMakeFiles/Ugnas_Chess.dir/board.c.o -c /home/emmanuelcorpus/Documentos/Ugnas-Chess/board.c",
+  "file": "/home/emmanuelcorpus/Documentos/Ugnas-Chess/board.c"
+},
+{
+  "directory": "/home/emmanuelcorpus/Documentos/Ugnas-Chess/build",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-11   -g -std=gnu99 -o CMakeFiles/Ugnas_Chess.dir/data.c.o -c /home/emmanuelcorpus/Documentos/Ugnas-Chess/data.c",
+  "file": "/home/emmanuelcorpus/Documentos/Ugnas-Chess/data.c"
+},
+{
+  "directory": "/home/emmanuelcorpus/Documentos/Ugnas-Chess/build",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-11   -g -std=gnu99 -o CMakeFiles/Ugnas_Chess.dir/attack.c.o -c /home/emmanuelcorpus/Documentos/Ugnas-Chess/attack.c",
+  "file": "/home/emmanuelcorpus/Documentos/Ugnas-Chess/attack.c"
+}
+]
