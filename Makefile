@@ -142,6 +142,33 @@ Ugnas_Chess/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ugnas_Chess.dir/build.make CMakeFiles/Ugnas_Chess.dir/build
 .PHONY : Ugnas_Chess/fast
 
+attack.o: attack.c.o
+
+.PHONY : attack.o
+
+# target to build an object file
+attack.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ugnas_Chess.dir/build.make CMakeFiles/Ugnas_Chess.dir/attack.c.o
+.PHONY : attack.c.o
+
+attack.i: attack.c.i
+
+.PHONY : attack.i
+
+# target to preprocess a source file
+attack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ugnas_Chess.dir/build.make CMakeFiles/Ugnas_Chess.dir/attack.c.i
+.PHONY : attack.c.i
+
+attack.s: attack.c.s
+
+.PHONY : attack.s
+
+# target to generate assembly for a file
+attack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ugnas_Chess.dir/build.make CMakeFiles/Ugnas_Chess.dir/attack.c.s
+.PHONY : attack.c.s
+
 bitboard.o: bitboard.c.o
 
 .PHONY : bitboard.o
@@ -313,6 +340,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Ugnas_Chess"
+	@echo "... attack.o"
+	@echo "... attack.i"
+	@echo "... attack.s"
 	@echo "... bitboard.o"
 	@echo "... bitboard.i"
 	@echo "... bitboard.s"

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/emmanuelcorpus/Documentos/Ugnas-Chess/attack.c
+defs.h
+/home/emmanuelcorpus/Documentos/Ugnas-Chess/defs.h
+
 /home/emmanuelcorpus/Documentos/Ugnas-Chess/bitboard.c
 stdio.h
 /home/emmanuelcorpus/Documentos/Ugnas-Chess/stdio.h

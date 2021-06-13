@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Ugnas_Chess.dir/attack.c.o"
   "CMakeFiles/Ugnas_Chess.dir/bitboard.c.o"
   "CMakeFiles/Ugnas_Chess.dir/board.c.o"
   "CMakeFiles/Ugnas_Chess.dir/data.c.o"

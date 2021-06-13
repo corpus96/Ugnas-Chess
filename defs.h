@@ -48,6 +48,12 @@ enum { FALSE, TRUE };
 
 enum { WKCA = 1, WQCA = 2, BKCA = 4, BQCA = 8 };
 
+typedef struct
+{
+    int move;
+    int score;
+} S_MOVE;
+
 typedef struct {
 
     int move;
@@ -88,6 +94,18 @@ typedef struct {
     int pList[13][10];
 
 } S_BOARD;
+
+/* GAME MOVE */
+
+
+/*
+0000 0000 0000 0000 0000 0111 1111 -> From
+0000 0000 0000 0011 1111 1000 0000 -> To
+0000 0000 0011 1100 0000 0000 0000 -> Captured
+0000 0000 0100 0000 0000 0000 0000 -> EP
+0000 0111 1000 0000 0000 0000 0000 -> Promoted Piece
+0000 1000 0000 0000 0000 0000 0000 -> Castle
+*/
 
 /* MACROS */
 
@@ -152,6 +170,8 @@ extern void PrintBoard(const S_BOARD *pos);
 extern void UpdateListMaterial(S_BOARD *pos);
 extern int CheckBoard(const S_BOARD *pos);
 
+//attack.c
+extern int SqAttacked(const int sq, const int side, const S_BOARD *pos);
 
 #endif
 

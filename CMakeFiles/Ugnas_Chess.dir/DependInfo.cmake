@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/emmanuelcorpus/Documentos/Ugnas-Chess/attack.c" "/home/emmanuelcorpus/Documentos/Ugnas-Chess/CMakeFiles/Ugnas_Chess.dir/attack.c.o"
   "/home/emmanuelcorpus/Documentos/Ugnas-Chess/bitboard.c" "/home/emmanuelcorpus/Documentos/Ugnas-Chess/CMakeFiles/Ugnas_Chess.dir/bitboard.c.o"
   "/home/emmanuelcorpus/Documentos/Ugnas-Chess/board.c" "/home/emmanuelcorpus/Documentos/Ugnas-Chess/CMakeFiles/Ugnas_Chess.dir/board.c.o"
   "/home/emmanuelcorpus/Documentos/Ugnas-Chess/data.c" "/home/emmanuelcorpus/Documentos/Ugnas-Chess/CMakeFiles/Ugnas_Chess.dir/data.c.o"
