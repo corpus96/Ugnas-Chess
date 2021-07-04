@@ -16,6 +16,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/emmanuelcorpus/Documentos/Ugnas-Chess/init.c" "CMakeFiles/Ugnas_Chess.dir/init.c.o" "gcc" "CMakeFiles/Ugnas_Chess.dir/init.c.o.d"
   "/home/emmanuelcorpus/Documentos/Ugnas-Chess/io.c" "CMakeFiles/Ugnas_Chess.dir/io.c.o" "gcc" "CMakeFiles/Ugnas_Chess.dir/io.c.o.d"
   "/home/emmanuelcorpus/Documentos/Ugnas-Chess/main.c" "CMakeFiles/Ugnas_Chess.dir/main.c.o" "gcc" "CMakeFiles/Ugnas_Chess.dir/main.c.o.d"
+  "/home/emmanuelcorpus/Documentos/Ugnas-Chess/movegen.c" "CMakeFiles/Ugnas_Chess.dir/movegen.c.o" "gcc" "CMakeFiles/Ugnas_Chess.dir/movegen.c.o.d"
+  "/home/emmanuelcorpus/Documentos/Ugnas-Chess/validate.c" "CMakeFiles/Ugnas_Chess.dir/validate.c.o" "gcc" "CMakeFiles/Ugnas_Chess.dir/validate.c.o.d"
   )
 
 # Targets to which this target links.

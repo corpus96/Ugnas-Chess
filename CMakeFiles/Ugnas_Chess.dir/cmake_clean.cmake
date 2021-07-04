@@ -15,6 +15,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/Ugnas_Chess.dir/io.c.o.d"
   "CMakeFiles/Ugnas_Chess.dir/main.c.o"
   "CMakeFiles/Ugnas_Chess.dir/main.c.o.d"
+  "CMakeFiles/Ugnas_Chess.dir/movegen.c.o"
+  "CMakeFiles/Ugnas_Chess.dir/movegen.c.o.d"
+  "CMakeFiles/Ugnas_Chess.dir/validate.c.o"
+  "CMakeFiles/Ugnas_Chess.dir/validate.c.o.d"
   "Ugnas_Chess"
   "Ugnas_Chess.pdb"
 )

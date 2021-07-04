@@ -321,6 +321,54 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ugnas_Chess.dir/build.make CMakeFiles/Ugnas_Chess.dir/main.c.s
 .PHONY : main.c.s
 
+movegen.o: movegen.c.o
+.PHONY : movegen.o
+
+# target to build an object file
+movegen.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ugnas_Chess.dir/build.make CMakeFiles/Ugnas_Chess.dir/movegen.c.o
+.PHONY : movegen.c.o
+
+movegen.i: movegen.c.i
+.PHONY : movegen.i
+
+# target to preprocess a source file
+movegen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ugnas_Chess.dir/build.make CMakeFiles/Ugnas_Chess.dir/movegen.c.i
+.PHONY : movegen.c.i
+
+movegen.s: movegen.c.s
+.PHONY : movegen.s
+
+# target to generate assembly for a file
+movegen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ugnas_Chess.dir/build.make CMakeFiles/Ugnas_Chess.dir/movegen.c.s
+.PHONY : movegen.c.s
+
+validate.o: validate.c.o
+.PHONY : validate.o
+
+# target to build an object file
+validate.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ugnas_Chess.dir/build.make CMakeFiles/Ugnas_Chess.dir/validate.c.o
+.PHONY : validate.c.o
+
+validate.i: validate.c.i
+.PHONY : validate.i
+
+# target to preprocess a source file
+validate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ugnas_Chess.dir/build.make CMakeFiles/Ugnas_Chess.dir/validate.c.i
+.PHONY : validate.c.i
+
+validate.s: validate.c.s
+.PHONY : validate.s
+
+# target to generate assembly for a file
+validate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ugnas_Chess.dir/build.make CMakeFiles/Ugnas_Chess.dir/validate.c.s
+.PHONY : validate.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -354,6 +402,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... movegen.o"
+	@echo "... movegen.i"
+	@echo "... movegen.s"
+	@echo "... validate.o"
+	@echo "... validate.i"
+	@echo "... validate.s"
 .PHONY : help
 
 
